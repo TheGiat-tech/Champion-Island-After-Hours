@@ -1,0 +1,29 @@
+{
+  "hero": {
+    "type": "sequence",
+    "basePath": "assets/characters/hero/",
+    "idle": {
+      "down": [],
+      "up": [],
+      "left": [],
+      "right": []
+    },
+    "walk": {
+      "down": [],
+      "up": [],
+      "left": [],
+      "right": []
+    }
+  },
+  "npcs": [
+    { "id": "sage", "name": "Sage", "path": "assets/characters/npcs/sage.png" },
+    { "id": "archivist", "name": "Archivist", "path": "assets/characters/npcs/archivist.png" },
+    { "id": "groundskeeper", "name": "Groundskeeper", "path": "assets/characters/npcs/groundskeeper.png" }
+  ],
+  "ui": {},
+  "world": {
+    "tilemapPath": "data/map.json",
+    "tilesetImagePath": "assets/tiles/tileset.png",
+    "tilesetName": "tileset"
+  }
+}
